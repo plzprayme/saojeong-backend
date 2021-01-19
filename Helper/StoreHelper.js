@@ -1,8 +1,5 @@
-const faker = require('faker/locale/ko')
 const pool = require('../config/db')
 const weekday = { 'mon': 0, 'tue': 1, 'wed': 2, 'thu': 3, 'fri': 4, 'sat': 5, 'sun': 6 }
-const cron = require('node-cron')
-const { set } = require('lodash')
 
 module.exports = {
   readAllVotedStore: async (data) => {

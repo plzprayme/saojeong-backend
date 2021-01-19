@@ -1,4 +1,3 @@
-const faker = require('faker')
 const UserHelper = require('../../../Helper/UserHelper')
 const pool = require('../../../config/db')
 const jwt = require('jsonwebtoken')

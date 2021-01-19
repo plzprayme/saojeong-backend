@@ -1,7 +1,6 @@
-const faker = require('faker/locale/ko')
+
 const pool = require('../config/db')
 const BoardHelper2 = require('./BoardHelper2')
-const { title } = require('faker/lib/locales/ko')
 
 
 module.exports = {

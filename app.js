@@ -18,7 +18,9 @@ var passport = require('./config/passport')
 
 const app = express()
 
-
+app.get('/market-price/:category', (req, res, next) => {
+  res.send([])
+})
 
 // The request handler must be the first middleware on the app
 // app.use(Sentry.Handlers.requestHandler())
